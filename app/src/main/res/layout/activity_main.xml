@@ -21,21 +21,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:columnCount="4"
-                android:rowCount="2"
                 android:nestedScrollingEnabled="true"
                 android:orientation="horizontal">
                 <Button
-                    android:text="Zoom +"
+                    android:text="ZoomIn"
                     android:textAllCaps="false"
                     android:layout_gravity="fill"
                     android:layout_columnWeight="1"
-                    android:onClick="zoommas"/>
+                    android:onClick="zoomin"/>
                 <Button
-                    android:text="Zoom -"
+                    android:text="ZoomOut"
                     android:textAllCaps="false"
                     android:layout_gravity="fill"
                     android:layout_columnWeight="1"
-                    android:onClick="zoommenos"/>
+                    android:onClick="zoomout"/>
                 <Button
                     android:text="FadeIn"
                     android:textAllCaps="false"
@@ -119,13 +118,13 @@
         android:layout_weight="3"
         android:background="@color/colorAccent">
         <ImageView
-            android:id="@+id/ivImagen"
+            android:id="@+id/ivAndroid"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/android"
             android:layout_centerInParent="true"/>
         <ImageView
-            android:id="@+id/ivLogo"
+            android:id="@+id/ivTux"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/tux"
